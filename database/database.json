@@ -1,0 +1,681 @@
+{
+    "AT": {
+        "label": {
+            "ge": {
+                "longname": "Umsatzsteuer-Identifikationsnummer",
+                "shortname": "UID"
+            }
+        },
+        "pattern": "(AT)?U\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 20
+            },
+            {
+                "isStandard": false,
+                "rate": 12
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            }
+        ]
+    },
+    "BE": {
+        "label": {
+            "fr": {
+                "longname": "Numéro de TVA",
+                "shortname": "N° TVA"
+            },
+            "nl": {
+                "longname": "BTW identificatienummer",
+                "shortname": "BTW-nr"
+            }
+        },
+        "pattern": "(BE)?0\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 21
+            },
+            {
+                "isStandard": false,
+                "rate": 12
+            },
+            {
+                "isStandard": false,
+                "rate": 6
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "BG": {
+        "label": {
+            "bg": {
+                "longname": "Идентификационен номер по ДДС",
+                "shortname": "ДДС номер"
+            },
+            "bg2": {
+                "longname": "Identifikacionen nomer po DDS",
+                "shortname": "ДДС номер"
+            }
+        },
+        "pattern": "(BG)?\\{9,10}d",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 20
+            },
+            {
+                "isStandard": false,
+                "rate": 9
+            }
+        ]
+    },
+    "CH": {
+        "label": {
+        },
+        "pattern": "(E-|E|E\\s)([0-9]{3,3}(\\.)[0-9]{3,3}(\\.)[0-9]{3,3}|[0-9]{9,9})(\\s|)(MWST|TVA|IVA|)",
+        "rates": [
+        ]
+    },
+    "CY": {
+        "label": {
+            "gr": {
+                "longname": "Αριθμός Εγγραφής Φ.Π.Α.",
+                "shortname": "ΦΠΑ"
+            },
+            "gr2": {
+                "longname": "Arithmós Engraphḗs phi. pi. a.",
+                "shortname": "ΦΠΑ"
+            }
+        },
+        "pattern": "(CY)?\\d{8}[A-Z]{1}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 19
+            },
+            {
+                "isStandard": false,
+                "rate": 9
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "CZ": {
+        "label": {
+            "": {
+                "longname": "Daňové identifikační číslo",
+                "shortname": "DIČ"
+            }
+        },
+        "pattern": "(CZ)?\\d{8,10}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 21
+            },
+            {
+                "isStandard": false,
+                "rate": 15
+            }
+        ]
+    },
+    "DE": {
+        "label": {
+            "de": {
+                "longname": "Umsatzsteuer-Identifikationsnummer",
+                "shortname": "USt-IdNr."
+            }
+        },
+        "pattern": "(DE)?\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 19
+            },
+            {
+                "isStandard": false,
+                "rate": 7
+            }
+        ]
+    },
+    "DK": {
+        "label": {
+            "dk": {
+                "longname": "Momsregistreringsnummer",
+                "shortname": "CVR"
+            }
+        },
+        "pattern": "(DK)?\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 25
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "EE": {
+        "label": {
+            "ee": {
+                "longname": "Käibemaksukohustuslase number",
+                "shortname": "KMKR"
+            }
+        },
+        "pattern": "(EE)?\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 20
+            },
+            {
+                "isStandard": false,
+                "rate": 9
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "EL": {
+        "label": {
+            "el": {
+                "longname": "Arithmós Forologikou Mētrṓou",
+                "shortname": "ΑΦΜ"
+            },
+            "gr": {
+                "longname": "Αριθμός Φορολογικού Μητρώου",
+                "shortname": "ΑΦΜ"
+            }
+        },
+        "pattern": "(EL)?\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 23
+            },
+            {
+                "isStandard": false,
+                "rate": 13
+            },
+            {
+                "isStandard": false,
+                "rate": 6.5
+            }
+        ]
+    },
+    "ES": {
+        "label": {
+            "es": {
+                "longname": "Número de Identificación Fiscal",
+                "shortname": "NIF"
+            }
+        },
+        "pattern": "(ES)?[A-Z]{1}\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 21
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            },
+            {
+                "isStandard": false,
+                "rate": 4
+            }
+        ]
+    },
+    "FI": {
+        "label": {
+            "fi": {
+                "longname": "Arvonlisäveronumero Mervärdesskattenummer",
+                "shortname": "ALV nro"
+            }
+        },
+        "pattern": "(FI)?\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 24
+            },
+            {
+                "isStandard": false,
+                "rate": 14
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "FR": {
+        "label": {
+            "fr": {
+                "longname": "Numéro de TVA intracommunautaire",
+                "shortname": "N° TVA"
+            }
+        },
+        "pattern": "(?:FR)?(\\d{2})(\\d{9})",
+        "validator": "$1==12+3*($2%97)%97",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 20
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            },
+            {
+                "isStandard": false,
+                "rate": 5.5
+            },
+            {
+                "isStandard": false,
+                "rate": 2.1
+            }
+        ]
+    },
+    "GB": {
+        "label": {
+            "en": {
+                "longname": "Value added tax registration number",
+                "shortname": "VAT Reg No"
+            }
+        },
+        "pattern": "(GB)?\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 20
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            }
+        ]
+    },
+    "HR": {
+        "label": {
+            "hr": {
+                "longname": "PDV Id. Broj OIB",
+                "shortname": "PDV-ID"
+            }
+        },
+        "pattern": "(HR)?\\d{11}",
+        "rates": [
+        ]
+    },
+    "HU": {
+        "label": {
+            "hu": {
+                "longname": "Közösségi adószám",
+                "shortname": "ANUM"
+            }
+        },
+        "pattern": "(HU)?\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 27
+            },
+            {
+                "isStandard": false,
+                "rate": 18
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            }
+        ]
+    },
+    "IE": {
+        "label": {
+            "en": {
+                "longname": "Value added tax identification no.",
+                "shortname": "VAT"
+            }
+        },
+        "pattern": "(IE)?\\d{7}[A-Z]{1}(W)?",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 23
+            },
+            {
+                "isStandard": false,
+                "rate": 13.5
+            },
+            {
+                "isStandard": false,
+                "rate": 9
+            },
+            {
+                "isStandard": false,
+                "rate": 4.8
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "IT": {
+        "label": {
+            "it": {
+                "longname": "Partita Imposta sul Valore Aggiunto",
+                "shortname": "P.IVA"
+            }
+        },
+        "pattern": "(IT)?\\d{11}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 22
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            },
+            {
+                "isStandard": false,
+                "rate": 4
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "LT": {
+        "label": {
+            "lt": {
+                "longname": "Pridėtinės vertės mokestis mokėtojo kodas",
+                "shortname": "PVM kodas"
+            }
+        },
+        "pattern": "(LV)?\\d{9,12}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 21
+            },
+            {
+                "isStandard": false,
+                "rate": 9
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            }
+        ]
+    },
+    "LV": {
+        "label": {
+            "lv": {
+                "longname": "Pievienotās vērtības nodokļa",
+                "shortname": "PVN"
+            }
+        },
+        "pattern": "(LV)?\\d{11}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 21
+            },
+            {
+                "isStandard": false,
+                "rate": 12
+            }
+        ]
+    },
+    "LU": {
+        "label": {
+            "fr": {
+                "longname": "Numéro d'identification à la taxe sur la valeur ajoutée",
+                "shortname": "No. TVA"
+            }
+        },
+        "pattern": "(LU)?\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 15
+            },
+            {
+                "isStandard": true,
+                "rate": 12
+            },
+            {
+                "isStandard": true,
+                "rate": 6
+            },
+            {
+                "isStandard": false,
+                "rate": 3
+            }
+        ]
+    },
+    "MT": {
+        "label": {
+            "mt": {
+                "longname": "Vat reg. no.",
+                "shortname": "Vat No."
+            }
+        },
+        "pattern": "(MT)?\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 18
+            },
+            {
+                "isStandard": false,
+                "rate": 7
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "NL": {
+        "label": {
+            "nl": {
+                "longname": "Btw-nummer",
+                "shortname": "Btw-nr."
+            }
+        },
+        "pattern": "(NL)?\\d{9}B\\d{2}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 21
+            },
+            {
+                "isStandard": false,
+                "rate": 6
+            }
+        ]
+    },
+    "NO": {
+        "label": {
+        },
+        "pattern": "(NL)?\\d{9}",
+        "rates": [
+        ]
+    },
+    "PL": {
+        "label": {
+            "pl": {
+                "longname": "numer identyfikacji podatkowej",
+                "shortname": "NIP"
+            }
+        },
+        "pattern": "(PL)?\\d{10}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 23
+            },
+            {
+                "isStandard": false,
+                "rate": 8
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "PT": {
+        "label": {
+            "pt": {
+                "longname": "Número de Identificação Fiscal",
+                "shortname": "NIF"
+            },
+            "pt2": {
+                "longname": "Número de Identificação de Pessoa Coletiva",
+                "shortname": "NIPC"
+            }
+        },
+        "pattern": "(PT)?\\d{9}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 23
+            },
+            {
+                "isStandard": false,
+                "rate": 13
+            },
+            {
+                "isStandard": false,
+                "rate": 6
+            }
+        ]
+    },
+    "RO": {
+        "label": {
+            "ro": {
+                "longname": "Codul de identificare fiscală",
+                "shortname": "CIF"
+            }
+        },
+        "pattern": "(RO)?\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 24
+            },
+            {
+                "isStandard": false,
+                "rate": 9
+            },
+            {
+                "isStandard": false,
+                "rate": 5
+            }
+        ]
+    },
+    "SE": {
+        "label": {
+            "se": {
+                "longname": "momsregistreringsnummer",
+                "shortname": "Momsnr."
+            }
+        },
+        "pattern": "(SE)?\\d{10}01",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 25
+            },
+            {
+                "isStandard": false,
+                "rate": 12
+            },
+            {
+                "isStandard": false,
+                "rate": 6
+            },
+            {
+                "isStandard": false,
+                "rate": 0
+            }
+        ]
+    },
+    "SI": {
+        "label": {
+            "si": {
+                "longname": "Identifikacijska številka za DDV",
+                "shortname": "ID za DDV"
+            }
+        },
+        "pattern": "(SI)?\\d{8}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 22
+            },
+            {
+                "isStandard": false,
+                "rate": 9.5
+            }
+        ]
+    },
+    "SK": {
+        "label": {
+            "sk": {
+                "longname": "Identifikačné číslo pre daň z pridanej hodnoty",
+                "shortname": "IČ DPH"
+            }
+        },
+        "pattern": "(SK)?\\d{10}",
+        "rates": [
+            {
+                "isStandard": true,
+                "rate": 20
+            },
+            {
+                "isStandard": false,
+                "rate": 10
+            }
+        ]
+    }
+}

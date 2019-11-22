@@ -1,0 +1,19 @@
+{
+    "name": "datablock/vatin",
+    "description": "VAT Identification Number. Rates lists and syntax rules by countries.",
+    "type": "library",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "OSW3",
+            "email": "contact@osw3.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Datablock\\Vatin\\" : "src/"
+        }
+    }
+}
