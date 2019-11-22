@@ -119,7 +119,19 @@ class Vatin
         return $data['pattern'];
     }
 
-    public function validator(string $value)
+    public function validator()
+    {
+        $data = $this->data();
+
+        if (!isset($data['validator']))
+        {
+            return null;
+        }
+
+        return $data['validator'];
+    }
+
+    public function isValid(string $value)
     {
         $validator = false;
         $pattern = null;

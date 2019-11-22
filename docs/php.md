@@ -207,8 +207,8 @@ $vatin->pattern()
 
 Return true if the VAT Identification Number is valid :
 ```
-$vatin->validator("FR32439351354"); // Valid
-$vatin->validator("32439351354"); // Valid
-$vatin->validator("31439351354"); // Not Valid
+$vatin->isValid("FR32439351354"); // Valid
+$vatin->isValid("32439351354"); // Valid
+$vatin->isValid("31439351354"); // Not Valid
 ```
 

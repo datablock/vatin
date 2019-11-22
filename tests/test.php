@@ -45,9 +45,9 @@ $vatin = new Vatin("FR");
 // print_r( $vatin->pattern() );
 
 // Is a valid VATIN
-// print_r( $vatin->validator("FR32439351354") ); // Valid
-// print_r( $vatin->validator("32439351354") ); // Valid
-// print_r( $vatin->validator("31439351354") ); // InValid
+// print_r( $vatin->isValid("FR32439351354") ); // Valid
+// print_r( $vatin->isValid("32439351354") ); // Valid
+// print_r( $vatin->isValid("31439351354") ); // InValid
 
 
 
